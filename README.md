@@ -5,4 +5,4 @@ The notebook RNN_music.ipynb is structured in 4 parts:
 1) We explore the structure of MIDI (Musical Instrument Digital Interface) files and play with some functionalities of the pretty_midi library.
 2) We build a LSTM model that, trained on sequences of chords of different songs, learns which chord is more likely to be played given the list of chords played previously.
 3) Our LSTM model has an embedding layer that learns to encode the chords with lower dimensionality. We explore this embedding layer with PCA analysis so that we can observe the effect of word2vec embedding.
-4) We concentrate just on the chords of the Circle of Fifths and perform the same analysis: we can clearly see that the embedding layer of our model has learned this sequence of chords.
+4) We concentrate just on the chords of the Circle of Fifths and perform the same analysis: we can clearly see that the embedding layer of our model has learned this sequence of chords (see file learned_5th.png)
